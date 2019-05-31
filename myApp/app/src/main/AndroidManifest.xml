@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".exCustomListViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ex11_2Activity" />
+        <activity android:name=".CallComponentActivity" />
+        <activity android:name=".exloginResultActivity" />
+        <activity android:name=".exloginActivity" />
+        <activity android:name=".ex10_3Activity" />
+        <activity android:name=".ex10_20Activity" />
+        <activity android:name=".ex10_2resultActivity" />
+        <activity android:name=".ex10_2Activity" />
+        <activity android:name=".ex52Activity" />
+        <activity android:name=".newActivity" />
+        <activity android:name=".ex51Activity" />
+        <activity android:name=".inflationActivity" />
+        <activity android:name=".ex4_24Activity" />
+        <activity android:name=".ex43Activity" />
+        <activity android:name=".ex42Activity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

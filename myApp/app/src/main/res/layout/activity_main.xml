@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/bt_ex42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="실습42"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_ex43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="실습43"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_ex51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="실습51"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_ex4_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="실습4_24"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_inflation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="실습inflation"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_newActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="새화면띄우기(닫기)"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_ex10_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="영화별점주기"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_ex10_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="LifeCycle"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/exlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="Login"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/otherapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="display on OtherApp"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btlv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="ListView"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="여기는 텍스트 뷰입니다 한줄로 표현하려면?"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:textSize="30sp"-->
+    <!--android:singleLine="true"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/click"-->
+    <!--tools:layout_editor_absoluteX="161dp"-->
+    <!--tools:layout_editor_absoluteY="394dp" />-->
+
+    <!--<EditText-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:textSize="30sp"-->
+    <!--android:ems="5"-->
+    <!--android:background="@android:color/holo_blue_bright"/>-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editText1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPassword" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editText2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:hint="123"-->
+    <!--android:inputType="numberDecimal" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editText3"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:hint="phone"-->
+    <!--android:inputType="phone" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/click"-->
+    <!--tools:layout_editor_absoluteX="161dp"-->
+    <!--tools:layout_editor_absoluteY="394dp" />-->
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--&gt;-->
+    <!--<TextView-->
+    <!--android:text="@string/welcome"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+    <!--android:text="@string/click"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_margin="20dp"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

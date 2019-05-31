@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ex10_2Activity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/movie_image"
+        />
+
+    <RatingBar
+        android:id="@+id/starScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="1"
+        android:stepSize="0.5"
+        />
+
+    <Button
+        android:id="@+id/btScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별점주기"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="닫기"
+        android:onClick="close"
+        />
+
+
+
+
+</LinearLayout>

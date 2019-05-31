@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inflationActivity"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    >
+
+    <LinearLayout
+        android:background="@android:color/holo_purple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btCCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHECKBOX보여주기"
+            />
+
+        <Button
+            android:id="@+id/btRCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHECKBOX사라지기"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
