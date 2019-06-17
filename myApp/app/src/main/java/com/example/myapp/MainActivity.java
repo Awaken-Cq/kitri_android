@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.SeekBar;
 import android.widget.Toast;
 
 import java.util.HashMap;
@@ -45,6 +46,16 @@ public class MainActivity extends AppCompatActivity {
         activityMap.put(R.id.exlogin, exloginActivity.class);
         activityMap.put(R.id.otherapp, CallComponentActivity.class);
         activityMap.put(R.id.btlv,ex11_2Activity.class);
+        activityMap.put(R.id.bt_customerlv,exCustomListViewActivity.class);
+        activityMap.put(R.id.btsb, seekBarActivity.class);
+        activityMap.put(R.id.bt_network, networkActivity.class);
+        activityMap.put(R.id.bt_listjson, networkCustomListViewActivity.class);
+        activityMap.put(R.id.bt_exchagne, exchangeRateActivity.class);
+        activityMap.put(R.id.bt_viewcart, viewCartActivity.class);
+        activityMap.put(R.id.bt_file_io, ex8_3Activity.class);
+        activityMap.put(R.id.bt_database, ex12_1Activity.class);
+        activityMap.put(R.id.bt_diary,ex8_3SQLActivity.class);
+        activityMap.put(R.id.bt_musicplayer, ex13Activity.class);
     }
 
 

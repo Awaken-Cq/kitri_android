@@ -21,4 +21,13 @@
         android:textSize="30sp"
         android:onClick="close"
         />
+
+    <Button
+        android:id="@+id/productdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProductList"
+        android:textSize="30sp"
+        android:onClick="move"
+        />
 </LinearLayout>

@@ -19,6 +19,14 @@
 
 
             <Button
+                android:id="@+id/bt_musicplayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="MUSICPLAYER"
+                android:textSize="30sp" />
+
+            <Button
                 android:id="@+id/bt_ex42"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -104,6 +112,84 @@
                 android:layout_height="wrap_content"
                 android:onClick="btClick"
                 android:text="ListView"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/bt_customerlv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="CustomerListView"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btsb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="SeekBar"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_network"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="network"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_listjson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="productlistjson"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_exchagne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="exchangeApi"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_viewcart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="ViewMyCart"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_tabhost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="TabHost"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_file_io"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="File_IO"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_database"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="Database"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt_diary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btClick"
+                android:text="DIARY"
                 android:textSize="30sp" />
         </LinearLayout>
     </ScrollView>

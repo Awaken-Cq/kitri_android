@@ -1,6 +1,8 @@
 package com.kitri.dto;
 
-public class ProductCategory {
+import java.io.Serializable;
+
+public class ProductCategory implements Serializable {
     private String cate_no;
     private String cate_name;
 

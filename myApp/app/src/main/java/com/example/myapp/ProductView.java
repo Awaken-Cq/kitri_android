@@ -39,13 +39,13 @@ public class ProductView extends LinearLayout {
         ivProd_img.setImageDrawable(img);
         //---------------
         tvProd_no = (TextView) findViewById(R.id.prod_no);
-        tvProd_no.setText(product.getProd_no());
+        tvProd_no.setText(product.getProduct_no());
 
         tvProd_name = (TextView) findViewById(R.id.prod_name);
-        tvProd_name.setText(product.getProd_name());
+        tvProd_name.setText(product.getProduct_name());
 
         tvProd_price = (TextView) findViewById(R.id.prod_price);
-        tvProd_price.setText("" + product.getProd_price());
+        tvProd_price.setText("" + product.getProduct_price());
         //-------------------
 		/* NumberPicker numberPicker = (NumberPicker) findViewById(R.id.numberPicker1);
         numberPicker.setMaxValue(20);

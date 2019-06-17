@@ -2,20 +2,29 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".exCustomListViewActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ex13Activity"></activity>
+        <activity android:name=".ex8_3SQLActivity" />
+        <activity android:name=".ex12_1Activity" />
+        <activity android:name=".ex8_3Activity" />
+        <activity android:name=".ex6_17Activity" />
+        <activity android:name=".viewCartActivity" />
+        <activity android:name=".exchangeRateActivity" />
+        <activity android:name=".networkCustomListViewActivity" />
+        <activity android:name=".networkActivity" />
+        <activity android:name=".seekBarActivity" />
+        <activity android:name=".productInfoActivity" />
+        <activity android:name=".exCustomListViewActivity" />
         <activity android:name=".ex11_2Activity" />
         <activity android:name=".CallComponentActivity" />
         <activity android:name=".exloginResultActivity" />
@@ -32,7 +41,11 @@
         <activity android:name=".ex43Activity" />
         <activity android:name=".ex42Activity" />
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
